@@ -11,7 +11,7 @@ char c = 'a';
 while (c <= 'z')
 {
 putchar(c);
-c++
+c++;
 }
 while (c <= 'Z')
 {
