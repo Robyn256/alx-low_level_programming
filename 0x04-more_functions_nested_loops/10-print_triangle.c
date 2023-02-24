@@ -2,7 +2,7 @@ nclude "main.h"
 
 /**
  * print_tirangle - prints a triangle followed by a new line
- * @size: ize of the triangle
+ * @size: size of the triangle
  */
 
 void print_triangle(int size)
@@ -27,4 +27,5 @@ _putchar('#');
 _putchar('\n')
 }
 }
+return (0);
 }
