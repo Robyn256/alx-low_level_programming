@@ -38,7 +38,7 @@ return (a - b);
  * Return: The product of a and b.
  */
 int op_mul(int a, int b)
-#{
+{
 return (a * b);
 }
 /**
@@ -63,6 +63,4 @@ int op_mod(int a, int b)
 {
 return (a % b);
 }
-
-
 
