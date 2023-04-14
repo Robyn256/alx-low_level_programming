@@ -20,7 +20,7 @@ return (-1);
 if (text_content != NULL)
 {
 for (gor = 0; text_content[gor];)
-gor+;
+gor;
 }
 
 h = open(filename, O_WRONLY | O_APPEND);
