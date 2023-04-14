@@ -256,7 +256,7 @@ exit(98);
  * the function fails - exit code 98.
  * Return: On sucess 0.
 */
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[]);
 {
 Elf64_Ehdr *header;
 int m, l;
