@@ -238,7 +238,7 @@ printf("%#lx\n", e_entry);
  * @elf: File descriptor of the ELF file.
  * Description: If the file cannot be closed - exit code 98.
 */
-void close_elf(int elf);
+void close_elf(int elf)
 {
 if (close(elf) == -1)
 {
@@ -256,7 +256,7 @@ exit(98);
  * the function fails - exit code 98.
  * Return: On sucess 0.
 */
-int main(int __attribute__((__unused__)) argc, char *argv[]);
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 Elf64_Ehdr *header;
 int m, l;
