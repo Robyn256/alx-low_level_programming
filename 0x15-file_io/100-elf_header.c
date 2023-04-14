@@ -238,7 +238,7 @@ printf("%#lx\n", e_entry);
  * @elf: File descriptor of the ELF file.
  * Description: If the file cannot be closed - exit code 98.
 */
-void close_elf(int elf)
+void close_elf(int elf);
 {
 if (close(elf) == -1)
 {
